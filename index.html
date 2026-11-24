@@ -43,15 +43,16 @@
 
 <section>
 <div class="wrap">
-  <p class="label">What our agents check</p>
+  <p class="label">What 11,000 agent tests show</p>
   <h2>Agents are the most exacting customers you've ever had.</h2>
   <p class="lead">They read only facts, work out the total cost, and drop out at every hurdle. They don't buy on ad budget either. Small stores can win.</p>
-  <div class="stats words">
-    <div><div class="v">Find</div><p>Do agents reach you through search, Google Shopping and marketplaces? Does your bot protection let them in?</p></div>
-    <div><div class="v">Understand</div><p>Can they read price, sizes, materials, shipping and returns as text?</p></div>
-    <div><div class="v">Compare</div><p>How do you stack up against other stores on total price, returns, reviews and trust?</p></div>
-    <div><div class="v">Buy</div><p>Do they reach checkout without an account? Where do they drop out?</p></div>
+  <div class="stats">
+    <div><div class="v">0<small> %</small></div><p>of agents reached the end of checkout when the store required an account. With guest checkout: 81 %.</p></div>
+    <div><div class="v">86<small> %</small></div><p>picked the retailer with the better return policy when prices were equal.</p></div>
+    <div><div class="v">72<small> %</small></div><p>recommended the pricier but more trusted seller.</p></div>
+    <div><div class="v">3</div><p>product pages is all the agent Muse looked at on average when it searched the web itself.</p></div>
   </div>
+  <p class="src">Source: a16z, "How to Win Bots and Influence Purchases", O. Moore and J. Moore, 23 Nov 2026. 11,307 agent runs across 1,270 prompts by The Prompting Company, 22 Oct to 8 Nov 2026.</p>
 </div>
 </section>
 
@@ -62,16 +63,17 @@
   <p class="lead">What a store can do today so agents find it, understand it and buy there. Most steps also pay off right now, when ChatGPT or Gemini recommend stores.</p>
   <ol class="ten">
     <li><b>01</b><div><h3>Show the total price up front.</h3><p>Price including shipping on the product page. Put discounts in the price, not at checkout.</p><span class="why">Agents calculate the full cost, including shipping, returns and warranty.</span></div></li>
-    <li><b>02</b><div><h3>Returns and shipping as text.</h3><p>Return window, free returns and delivery time on the product page, not just in the terms.</p><span class="why">At equal prices, the better return policy often decides.</span></div></li>
-    <li><b>03</b><div><h3>Let people buy without an account.</h3><p>Offer guest checkout. A login wall ends almost every agent purchase.</p><span class="why">At a login wall, an agent gives up or moves to the next store.</span></div></li>
+    <li><b>02</b><div><h3>Returns and shipping as text.</h3><p>Return window, free returns and delivery time on the product page, not just in the terms.</p><span class="why">86 % chose the better return policy at equal prices.</span></div></li>
+    <li><b>03</b><div><h3>Let people buy without an account.</h3><p>Offer guest checkout. A login wall ends almost every agent purchase.</p><span class="why">81 % reached the end of checkout with guest checkout, 0 % with a required login.</span></div></li>
     <li><b>04</b><div><h3>Facts as text, not images.</h3><p>Sizes, dimensions, materials and what's in the box as readable text. Agents can't see a size chart image.</p><span class="why">An agent needs to establish what a product does, what it costs and what limits apply.</span></div></li>
-    <li><b>05</b><div><h3>Write for specific use cases.</h3><p>Say who your product is best for, and for what. For broad requests, the cheapest product usually wins.</p><span class="why">The more specific the need, the more often the best fit beats the cheapest.</span></div></li>
-    <li><b>06</b><div><h3>Show your reviews.</h3><p>Number of reviews and average rating, clearly visible on the product page.</p><span class="why">Many agents justify their pick with reviews.</span></div></li>
-    <li><b>07</b><div><h3>Trust beats discounts.</h3><p>Warranty, authorised dealer, trust badges. Small discounts do nothing, huge ones look suspicious.</p><span class="why">Agents often pay more for a seller they trust.</span></div></li>
-    <li><b>08</b><div><h3>Be where agents search.</h3><p>Google Shopping, the big marketplaces and the price comparison sites in your category. Agents often start in catalogs.</p><span class="why">Agents like to search where many offers sit in one place.</span></div></li>
-    <li><b>09</b><div><h3>Check your bot blocker.</h3><p>Cloudflare and other protection services can turn AI agents away. You never notice.</p><span class="why">Even big stores turn agents away, often without knowing.</span></div></li>
-    <li><b>10</b><div><h3>Keep data and feeds current.</h3><p>Structured data (schema.org) for product, price, availability, shipping and returns. Price and stock correct in every feed.</p><span class="why">Agents use similar sources. One error in your feed shows up everywhere.</span></div></li>
+    <li><b>05</b><div><h3>Write for specific use cases.</h3><p>Say who your product is best for, and for what. For broad requests, the cheapest product usually wins.</p><span class="why">Dyson vs. Shark: 9 % Dyson for the broad ask, 88 % for daily use.</span></div></li>
+    <li><b>06</b><div><h3>Show your reviews.</h3><p>Number of reviews and average rating, clearly visible on the product page.</p><span class="why">Three of four agents tested cited reviews in 30 to 41 % of their picks.</span></div></li>
+    <li><b>07</b><div><h3>Trust beats discounts.</h3><p>Warranty, authorised dealer, trust badges. Small discounts do nothing, huge ones look suspicious.</p><span class="why">Discounts under 10 % changed nothing. Above 50 %, agents steered clear.</span></div></li>
+    <li><b>08</b><div><h3>Be where agents search.</h3><p>Google Shopping, the big marketplaces and the price comparison sites in your category. Agents often start in catalogs.</p><span class="why">Nearly a third of agent spend at the top 50 merchants went to marketplaces and aggregators.</span></div></li>
+    <li><b>09</b><div><h3>Check your bot blocker.</h3><p>Cloudflare and other protection services can turn AI agents away. You never notice.</p><span class="why">On Amazon, 3 of 4 agents were blocked in every attempt.</span></div></li>
+    <li><b>10</b><div><h3>Keep data and feeds current.</h3><p>Structured data (schema.org) for product, price, availability, shipping and returns. Price and stock correct in every feed.</p><span class="why">Agents use similar sources: 73 % of one agent's picks also showed up with another.</span></div></li>
   </ol>
+  <p class="src">Figures: a16z, "How to Win Bots and Influence Purchases", 23 Nov 2026.</p>
 </div>
 </section>
 
