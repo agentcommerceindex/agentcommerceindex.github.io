@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Agent Commerce Index · Store check for online stores</title>
-<meta name="description" content="Would AI agents buy from your store? Free self-test, 10 steps to an agent-ready store, and the store check with 10 test agents.">
+<meta name="description" content="Would AI agents buy from your store? Free test, 10 steps to an agent-ready store, and the store check with 10 test agents.">
 <link rel="canonical" href="https://agentcommerceindex.com/">
 <link rel="alternate" hreflang="de" href="https://agentcommerceindex.com/de/">
 <link rel="alternate" hreflang="en" href="https://agentcommerceindex.com/">
@@ -15,7 +15,7 @@
 <div class="wrap">
 <header>
   <a class="logo" href="./">Agent Commerce Index</a>
-  <nav class="nav label" style="margin:0"><a class="sec" href="#self-test">Self-test</a><a class="sec" href="#check">Store check</a><span><a href="de/" hreflang="de" lang="de">DE</a> · <a href="./" aria-current="page">EN</a></span></nav>
+  <nav class="nav label" style="margin:0"><a class="sec" href="#free-test">Free test</a><a class="sec" href="#check">Store check</a><span><a href="de/" hreflang="de" lang="de">DE</a> · <a href="./" aria-current="page">EN</a></span></nav>
 </header>
 
 <div class="hero" id="check">
@@ -77,44 +77,13 @@
 </div>
 </section>
 
-<section id="self-test">
+<section id="free-test">
 <div class="wrap">
-  <p class="label">Self-test · 2 minutes · free</p>
-  <h2>How agent-ready is your store?</h2>
-  <p class="lead">10 questions, then your score and the three things to fix first. Your answers stay in your browser.</p>
-  <form id="quiz" class="quiz" novalidate
-    data-missing="{n} question(s) left."
-    data-high="Solid base. Only a real test shows whether agents actually buy from you."
-    data-mid="Agents find you but lose the thread along the way. A few fixes go a long way."
-    data-low="Agents have a hard time in your store right now. The good news: the most important fixes are usually quick."
-    data-none="Nothing obvious. Now a real test with agents is worth it.">
-    <fieldset data-fix="Show the total price including shipping on the product page, put discounts in the price."><legend><b>01</b>Is the price including shipping visible on the product page?</legend><div class="opts"><label><input type="radio" name="q1" value="2">Yes</label><label><input type="radio" name="q1" value="1">Partly</label><label><input type="radio" name="q1" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Put return window, return costs and delivery time as text on the product page."><legend><b>02</b>Are returns and delivery time on the product page as text?</legend><div class="opts"><label><input type="radio" name="q2" value="2">Yes</label><label><input type="radio" name="q2" value="1">Partly</label><label><input type="radio" name="q2" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Add guest checkout. With a required login, no agent gets through checkout."><legend><b>03</b>Can people order without an account?</legend><div class="opts"><label><input type="radio" name="q3" value="2">Yes</label><label><input type="radio" name="q3" value="1">Partly</label><label><input type="radio" name="q3" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Put sizes, dimensions and materials in text instead of images."><legend><b>04</b>Are sizes, dimensions and materials in text, not only in images?</legend><div class="opts"><label><input type="radio" name="q4" value="2">Yes</label><label><input type="radio" name="q4" value="1">Partly</label><label><input type="radio" name="q4" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Write product copy for specific use cases and audiences."><legend><b>05</b>Does your product copy say who the product is best for, and for what?</legend><div class="opts"><label><input type="radio" name="q5" value="2">Yes</label><label><input type="radio" name="q5" value="1">Partly</label><label><input type="radio" name="q5" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Show number of reviews and average rating on the product page."><legend><b>06</b>Do your product pages show the number of reviews and average rating?</legend><div class="opts"><label><input type="radio" name="q6" value="2">Yes</label><label><input type="radio" name="q6" value="1">Partly</label><label><input type="radio" name="q6" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Make trust visible: warranty, badges, authorised dealer status."><legend><b>07</b>Are warranty, trust badges or dealer status clearly visible?</legend><div class="opts"><label><input type="radio" name="q7" value="2">Yes</label><label><input type="radio" name="q7" value="1">Partly</label><label><input type="radio" name="q7" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Get into Google Shopping and the key marketplaces and price comparison sites in your category."><legend><b>08</b>Are your products on Google Shopping, marketplaces or price comparison sites?</legend><div class="opts"><label><input type="radio" name="q8" value="2">Yes</label><label><input type="radio" name="q8" value="1">Partly</label><label><input type="radio" name="q8" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Check your bot blocker: are AI agents being turned away?"><legend><b>09</b>Do you know whether your bot protection (e.g. Cloudflare) lets AI agents through?</legend><div class="opts"><label><input type="radio" name="q9" value="2">Yes, they get through</label><label><input type="radio" name="q9" value="1">Partly</label><label><input type="radio" name="q9" value="0">No / don't know</label></div></fieldset>
-    <fieldset data-fix="Add structured data (schema.org) and keep your feeds current."><legend><b>10</b>Does your store have structured data (schema.org) and current product feeds?</legend><div class="opts"><label><input type="radio" name="q10" value="2">Yes</label><label><input type="radio" name="q10" value="1">Partly</label><label><input type="radio" name="q10" value="0">No / don't know</label></div></fieldset>
-    <button class="btn" type="submit">Get my score</button>
-    <p class="hint" aria-live="polite"></p>
-  </form>
-  <div id="quiz-result" class="result" hidden>
-    <div class="score">
-      <span class="u">Your self-test</span>
-      <div class="v" data-out="score">0<small>/100</small></div>
-      <h3>Agent Readiness Score</h3>
-      <p data-out="verdict"></p>
-    </div>
-    <div class="fixes">
-      <h4 class="label">Fix first</h4>
-      <ol data-out="fixes"></ol>
-      <a class="btn" href="mailto:hello@agentcommerceindex.com?subject=Store%20check%20after%20self-test&amp;body=Store%20URL%3A%20">Test with real agents · 29 €</a>
-      <p class="fine">The self-test is based on your answers. The store check shows what agents actually do.</p>
-    </div>
-  </div>
+  <p class="label">Free test · for the first 10 stores</p>
+  <h2>We test your store. You read the report.</h2>
+  <p class="lead">Send us your store address. Our agents shop with you on a trial basis. You get the score and the three things to fix first by email.</p>
+  <div style="max-width:320px;margin-top:28px"><a class="btn" href="mailto:hello@agentcommerceindex.com?subject=Free%20store%20check%20(launch)&amp;body=Store%20URL%3A%20">Request a free test</a></div>
+  <p class="fine">In return we ask for a short quote and permission to use the results anonymously. For businesses only.</p>
 </div>
 </section>
 
@@ -178,6 +147,5 @@
 </section>
 
 <div class="wrap"><footer><span>Agent Commerce Index · an independent measurement</span><span>Example report, numbers illustrative · <a href="impressum.html">Imprint</a> · <a href="datenschutz.html">Privacy</a></span></footer></div>
-<script src="assets/quiz.js"></script>
 </body>
 </html>
